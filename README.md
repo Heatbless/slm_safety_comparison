@@ -1,4 +1,4 @@
-# Intrinsic vs. Extrinsic Security Strengthening for Small Language Models
+# Intrinsic vs. Extrinsic Safety Hardening for Small Language Models
 
 An independent research project comparing two defensive approaches against adversarial prompting on Small Language Models (SLMs) under 10B parameters.
 
@@ -94,7 +94,7 @@ BASE_DIR = "/content/drive/MyDrive/YOUR_FOLDER"
 
 ### 1. Baseline Evaluation (`1_Baseline_Evaluation.py`)
 
-Evaluates four SLMs against the adversarial prompt corpus without any defense applied. This establishes the baseline DSR used as the reference point for all comparisons.
+Evaluates four SLMs against the adversarial prompt corpus without any defense applied. This establishes the SLM model used as the selected model for SFT LoRA training.
 
 - HuggingFace login: **Required** (Llama 3.1 is gated)
 - Dataset: loaded from GitHub
